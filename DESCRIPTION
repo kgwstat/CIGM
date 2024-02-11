@@ -1,0 +1,15 @@
+Package: CIGM
+Title: Recovers conditional independence graphs of Gaussian processes from estimates of their covariance function
+Version: 0.5.0.0000
+Authors@R: 
+    person("Kartik", "Waghmare", , "kartik.waghmare@epfl.ch", role = c("aut", "cre"))
+Description: The package provides functions for recovering finite resolution approximations of conditional independence graphs of Gaussian processes.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+URL: https://github.com/kgwstat/CIGM
+BugReports: https://github.com/kgwstat/CIGM/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
