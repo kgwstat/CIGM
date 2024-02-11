@@ -33,7 +33,4 @@ P <- PrecisionOpMatrix(M, 20)
 ```
 
 Here is the plot:
-
-    #> Warning: package 'viridisLite' was built under R version 4.2.3
-
 <img src="man/figures/README-pressure-1.png" width="100%" />

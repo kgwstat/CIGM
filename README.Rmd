@@ -44,7 +44,7 @@ P <- PrecisionOpMatrix(M, 20)
 
 
 Here is the plot:
-```{r pressure, echo = FALSE}
+```{r pressure, echo = FALSE, warning = FALSE}
 library(viridisLite)
 coul <- viridis(100)
 lattice::levelplot(P, xlab = "x", ylab = "y", main = "Precision Operator Matrix for Brownian Motion", col.regions = coul)
