@@ -21,16 +21,19 @@ devtools::install_github("kgwstat/CIGM")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which considers the Brownian motion covariance:
 
 ``` r
 library(CIGM)
-## basic example code
-Range <- seq(0, 1, length.out = 100)
+## Brownian motion example
+Range <- seq(0, 1, length.out = 300)
 CovFn <- function(x, y) {min(x, y)}
 M <- outer(Range, Range, Vectorize(CovFn))
-P <- PrecisionOpMatrix(M, 10)
+P <- PrecisionOpMatrix(M, 20)
 ```
 
 Here is the plot:
+
+    #> Warning: package 'viridisLite' was built under R version 4.2.3
+
 <img src="man/figures/README-pressure-1.png" width="100%" />
