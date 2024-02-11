@@ -4,6 +4,8 @@
 # CIGM
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/kgwstat/CIGM/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/kgwstat/CIGM/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The package provides functions for recovering finite resolution
