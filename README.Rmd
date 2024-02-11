@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 [![R-CMD-check](https://github.com/kgwstat/CIGM/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/kgwstat/CIGM/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The package provides functions for recovering finite resolution approximations of conditional independence graphs of Gaussian processes.
+The package provides functions for recovering finite resolution approximations of conditional independence graphs of Gaussian processes as dexcribed in [1].
 
 ## Installation
 
@@ -51,3 +51,6 @@ coul <- viridis(100)
 lattice::levelplot(P, xlab = "x", ylab = "y", main = "Precision Operator Matrix for Brownian Motion", col.regions = coul)
 ```
 
+## References
+
+1. **Waghmare, K.G. and Panaretos, V.M.**, 2023. Continuously Indexed Graphical Models. *arXiv preprint arXiv:2302.02482*.

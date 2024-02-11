@@ -9,7 +9,8 @@
 <!-- badges: end -->
 
 The package provides functions for recovering finite resolution
-approximations of conditional independence graphs of Gaussian processes.
+approximations of conditional independence graphs of Gaussian processes
+as dexcribed in \[1\].
 
 ## Installation
 
@@ -36,3 +37,8 @@ P <- PrecisionOpMatrix(M, 20)
 
 Here is the plot:
 <img src="man/figures/README-pressure-1.png" width="100%" />
+
+## References
+
+1.  **Waghmare, K.G. and Panaretos, V.M.**, 2023. Continuously Indexed
+    Graphical Models. *arXiv preprint arXiv:2302.02482*.
