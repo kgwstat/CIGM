@@ -1,28 +1,18 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
 
 # CIGM
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The package provides functions for recovering finite resolution approximations of conditional independence graphs of Gaussian processes.
+The package provides functions for recovering finite resolution
+approximations of conditional independence graphs of Gaussian processes.
 
 ## Installation
 
-You can install the development version of CIGM from [GitHub](https://github.com/) with:
+You can install the development version of CIGM from
+[GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
@@ -33,7 +23,7 @@ devtools::install_github("kgwstat/CIGM")
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
+``` r
 library(CIGM)
 ## basic example code
 Range <- seq(0, 1, length.out = 100)
@@ -42,9 +32,5 @@ M <- outer(Range, Range, Vectorize(CovFn))
 P <- PrecisionOpMatrix(M, 10)
 ```
 
-
 Here is the plot:
-```{r pressure, echo = FALSE}
-lattice::levelplot(P)
-```
-
+<img src="man/figures/README-pressure-1.png" width="100%" />
