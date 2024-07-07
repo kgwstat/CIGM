@@ -41,4 +41,4 @@ Here is the plot:
 ## References
 
 1.  **Waghmare, K.G. and Panaretos, V.M.**, 2023. Continuously Indexed
-    Graphical Models. *arXiv preprint arXiv:2302.02482*.
+    Graphical Models. [*arXiv preprint arXiv:2302.02482*](https://arxiv.org/abs/2302.02482).
